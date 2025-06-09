@@ -1,106 +1,101 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<title>HTML Assignment 3</title>
+  <meta charset="UTF-8">
+  <title>HTML Assignment 3</title>
+  <style>
+    table.middle {
+      border: 1px solid black;
+      border-spacing: 1px;
+    }
+    td {
+      border: 1px solid black;
+      padding: 1px;
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+    .green {
+      background-color: green;
+    }
+    .blue {
+      background-color: blue;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
 </head>
-
 <body>
-<h1 style="text-align:center"> HTML Assignment #3</h1>
-		 <table id="table-1" class="middle" style="border: 1px solid black; border-spacing: 1px; padding: 1px;">
-        <tr>
-            <td id="t11" style="border: 1px solid black; padding: 1px;">Row 1, Cell 1</td>
-            <td id="t12" style="border: 1px solid black; padding: 1px;">Row 1, Cell 2</td>
-            <td id="t13" class="right" style="text-align: right; border: 1px solid black; padding: 1px;">Row 1, Cell 3</td>
-        </tr>
-        <tr class="center" style="text-align: center;">
-            <td style="border: 1px solid black; padding: 1px;">Row 2, Cell 1</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 2, Cell 2</td>
-            <td style="text-align: right; border: 1px solid black; padding: 1px;">Row 2, Cell 3</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">Row 3, Cell 1</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 3, Cell 2</td>
-            <td style="text-align: right; border: 1px solid black; padding: 1px;">Row 3, Cell 3</td>
-        </tr>
-    </table>
-    <br>
-	 <table id="table-2" class="middle" style="border: 1px solid black; border-spacing: 1px; padding: 1px;">
-        <tr>
-            <td id="t21" colspan="6" style="border: 1px solid black; padding: 1px;">This is a single cell in the first row</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">R2, C1</td>
-            <td style="border: 1px solid black; padding: 1px;">R2, C2</td>
-            <td style="border: 1px solid black; padding: 1px;">R2, C3</td>
-            <td style="border: 1px solid black; padding: 1px;">R2, C4</td>
-            <td style="border: 1px solid black; padding: 1px;">R2, C5</td>
-            <td style="border: 1px solid black; padding: 1px;">R2, C6</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">R3, C1</td>
-            <td style="border: 1px solid black; padding: 1px;">R3, C2</td>
-            <td style="border: 1px solid black; padding: 1px;">R3, C3</td>
-            <td style="border: 1px solid black; padding: 1px;">R3, C4</td>
-            <td style="border: 1px solid black; padding: 1px;">R3, C5</td>
-            <td style="border: 1px solid black; padding: 1px;">R3, C6</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">R4, C1</td>
-            <td style="border: 1px solid black; padding: 1px;">R4, C2</td>
-            <td style="border: 1px solid black; padding: 1px;">R4, C3</td>
-            <td style="border: 1px solid black; padding: 1px;">R4, C4</td>
-            <td style="border: 1px solid black; padding: 1px;">R4, C5</td>
-            <td style="border: 1px solid black; padding: 1px;">R4, C6</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">R5, C1</td>
-            <td style="border: 1px solid black; padding: 1px;">R5, C2</td>
-            <td style="border: 1px solid black; padding: 1px;">R5, C3</td>
-            <td style="border: 1px solid black; padding: 1px;">R5, C4</td>
-            <td style="border: 1px solid black; padding: 1px;">R5, C5</td>
-            <td style="border: 1px solid black; padding: 1px;">R5, C6</td>
-        </tr>
-        <tr>
-            <td style="border: 1px solid black; padding: 1px;">R6, C1</td>
-            <td style="border: 1px solid black; padding: 1px;">R6, C2</td>
-            <td style="border: 1px solid black; padding: 1px;">R6, C3</td>
-            <td style="border: 1px solid black; padding: 1px;">R6, C4</td>
-            <td style="border: 1px solid black; padding: 1px;">R6, C5</td>
-            <td style="border: 1px solid black; padding: 1px;">R6, C6</td>
-        </tr>
-    </table>
-    <br>
 
-    </table>
-    <br>
-	 <table id="table-3" class="middle" style="border: 1px solid black; border-spacing: 1px; padding: 1px;">
-        <tr style="background-color: green;">
-            <td style="border: 1px solid black; padding: 1px;">Row 1, Cell 1</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 1, Cell 2</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 1, Cell 3</td>
-        </tr>
-        <tr>
-            <td id="t-image" colspan="3" style="border: 1px solid black; padding: 1px; text-align: center;">
-                <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Sample Image" width="150" height="150">
-            </td>
-        </tr>
-        <tr style="background-color: blue;">
-            <td style="border: 1px solid black; padding: 1px;">Row 3, Cell 1</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 3, Cell 2</td>
-            <td style="border: 1px solid black; padding: 1px;">Row 3, Cell 3</td>
-        </tr>
-    </table>
+  <h1>HTML Assignment #3</h1>
 
-	
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <!-- Table 1 -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td id="t11">Row 1, Cell 1</td>
+      <td id="t12">Row 1, Cell 2</td>
+      <td id="t13" class="right">Row 1, Cell 3</td>
+    </tr>
+    <tr class="center">
+      <td>Row 2, Cell 1</td>
+      <td>Row 2, Cell 2</td>
+      <td class="right">Row 2, Cell 3</td>
+    </tr>
+    <tr>
+      <td>Row 3, Cell 1</td>
+      <td>Row 3, Cell 2</td>
+      <td class="right">Row 3, Cell 3</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Table 2 -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6">This is a single cell in the first row</td>
+    </tr>
+    <tr>
+      <td>R2, C1</td><td>R2, C2</td><td>R2, C3</td><td>R2, C4</td><td>R2, C5</td><td>R2, C6</td>
+    </tr>
+    <tr>
+      <td>R3, C1</td><td>R3, C2</td><td>R3, C3</td><td>R3, C4</td><td>R3, C5</td><td>R3, C6</td>
+    </tr>
+    <tr>
+      <td>R4, C1</td><td>R4, C2</td><td>R4, C3</td><td>R4, C4</td><td>R4, C5</td><td>R4, C6</td>
+    </tr>
+    <tr>
+      <td>R5, C1</td><td>R5, C2</td><td>R5, C3</td><td>R5, C4</td><td>R5, C5</td><td>R5, C6</td>
+    </tr>
+    <tr>
+      <td>R6, C1</td><td>R6, C2</td><td>R6, C3</td><td>R6, C4</td><td>R6, C5</td><td>R6, C6</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Table 3 -->
+  <table id="table-3" class="middle">
+    <tr class="green">
+      <td>Row 1, Cell 1</td>
+      <td>Row 1, Cell 2</td>
+      <td>Row 1, Cell 3</td>
+    </tr>
+    <tr>
+      <td id="t-image" colspan="3" class="center">
+        <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Sample Image" width="150" height="150">
+      </td>
+    </tr>
+    <tr class="blue">
+      <td>Row 3, Cell 1</td>
+      <td>Row 3, Cell 2</td>
+      <td>Row 3, Cell 3</td>
+    </tr>
+  </table>
 
 </body>
-
 </html>
-
-
